@@ -1,0 +1,123 @@
+body { 
+    background-color: #F5DABA;
+    font-family: futura;
+  
+}
+
+h1 { 
+    font-size: 15.625rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+p { 
+    font-size: 40px;
+    color: white;
+}
+
+.untertitel { 
+    font-size: 20px;
+    margin-bottom: 3rem;
+    min-width: 300px;
+    text-align: center;
+}
+
+.nav {
+    position: flex;
+    color: white;
+}
+
+.nav-item  .active{ 
+    
+    color: white !important;
+    font-size: 40px;
+}
+
+.nav-link {
+
+color: white !important;
+font-size: 40px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: white;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between !important;
+    
+}
+
+.navbar-collapse { 
+ background-color: #F5DABA;
+ border: white;
+ align-content: space-between !important;
+ flex-grow: 0;
+}
+
+
+.Abstand { 
+    margin: 100px;
+}
+
+
+.profil { 
+  max-height: 400px;
+  margin-bottom: 50px;
+}
+
+.lebenslauf { 
+  font-size: 25px;
+}
+
+.h1-responsive {
+  color: white !important;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 120px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+    .untertitel {
+      font-size: 20px;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .untertitel {
+      font-size: 10px;
+    }
+  }
+
+
+
+@media screen and (max-width: 600px) {
+    .nav-item  {
+      
+      font-size: 15px;;
+    }
+
